@@ -1,11 +1,5 @@
 sudo apt update
-sudo apt install build-essential
-sudo apt install bison
-sudo apt install flex
-sudo apt install libgmp3-dev
-sudo apt install libmpc-dev
-sudo apt install libmpfr-dev
-sudo apt install texinfo
+sudo apt install build-essential bison flex libgmp3-dev libmpc-dev libmpfr-dev texinfo -y
 export PREFIX="/usr/local/x86_64elfgcc"
 export TARGET=x86_64-elf
 export PATH="$PREFIX/bin:$PATH"
