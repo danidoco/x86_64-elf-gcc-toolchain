@@ -46,5 +46,5 @@ sudo ./uninstall.sh
 ### Step 2: Edit bashrc
 Remove this code in ```~/.bashrc```.
 ```sh
-export PATH="$PATH:/usr/local/x86_64-elfgcc/bin"
+export PATH="$PATH:/usr/local/x86_64elfgcc/bin"
 ```
