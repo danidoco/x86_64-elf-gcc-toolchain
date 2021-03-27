@@ -1,4 +1,4 @@
-# x86_64-elf-gcc
+# x86_64-elf-gcc-toolchain
 Setup tool to build GCC cross compiler toolchain for x86_64 elf
 
 ## How to install
@@ -18,7 +18,7 @@ Note: setup can take 30 minutes to an hour.
 ### Step 2: Edit bashrc
 Add a line of code to ```~/.bashrc```.
 ```sh
-export PATH="$PATH:/usr/local/x86_64-elfgcc/bin"
+export PATH="$PATH:/usr/local/x86_64elfgcc/bin"
 ```
 
 ### Step 3: Checking
